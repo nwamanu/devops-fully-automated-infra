@@ -6,5 +6,5 @@ variable "key_pair_name" {
 
 variable "vpc_id" {
     type = string
-    description = "vpc id to create the security group"
+    description = "vpc id to create the security group (sg)"
 }
