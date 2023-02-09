@@ -4,7 +4,7 @@ variable "key_pair_name" {
     default = "ansible-main"
 }
 
-# variable "vpc_id" {
-#     type = string
-#     description = "vpc id to create the security group"
-# }
+variable "vpc_id" {
+    type = string
+    description = "vpc id to create the security group"
+}
